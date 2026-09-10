@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(35, 31, 31);
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.port{
+    background-color: rgb(96, 94, 94);
+    border: 2px solid darkgray;
+    border-radius: 8px;
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+}
+#username{
+    margin: 50px;
+    font-size: auto;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 15px;
+    padding: 8px;
+}
+button{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 8px;
+    background-color: rgb(18, 123, 176);
+    color: white;
+}
+button:hover{
+   background-color: rgb(4, 75, 137);
+}
