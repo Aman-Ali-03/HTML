@@ -1,0 +1,63 @@
+body {
+    background-color: darkslategray;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    background-color: lightgray;
+    width: 100%;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.parent h1 {
+    text-align: center;
+    color: rgb(93, 92, 92);
+}
+
+.inter {
+    background: white;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inter a {
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 5px;
+    color: rgb(89, 85, 85);
+    position: relative;
+}
+
+.inter a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+.inter a:hover::after {
+    transform: scaleX(1);
+}
+
+.btn {
+    margin-right: 20px;
+    height: 30px;
+    margin-top: 6px;
+    width: 50px;
+    background-color: darkgray;
+    border-radius: 3px;
+}
+
+.inter .btn:hover {
+    background-color: lightgray;
+}
